@@ -1,0 +1,5 @@
+*.exe
+*.mod
+*.o
+.tmpfile
+compiler_macros
