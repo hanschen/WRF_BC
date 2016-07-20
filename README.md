@@ -17,7 +17,7 @@ Files needed:
     wrfinput_d01		        # Original WRF input (only for cycling)
 
 
-------------------------------------------------------------------
+-------------------------------------------------------------------------------
 **NOTE:**
 
 Keep an extra copy of `wrfbdy_d01`, it will be overwritten.
@@ -25,7 +25,7 @@ No `wrfinput_d01` copy needed, it won't be changed.
 
 After running `WRF_BC`, rename `wrf_3dvar_output` as `wrfinput_d01`.
 
-------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 ## Compile
 
@@ -60,7 +60,7 @@ After running `WRF_BC`, rename `wrf_3dvar_output` as `wrfinput_d01`.
 * wrf_input_from_si will not be changed.
 * wrf_3dvar_output_file will change, only when low_bdy_only is true.
 
-------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 Once again, remember to rename wrf_3dvar_output as wrfinput_d01 before
 you run WRF.
