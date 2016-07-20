@@ -18,7 +18,7 @@ Files needed:
 
 
 ------------------------------------------------------------------
-NOTE:
+**NOTE:**
 
 Keep an extra copy of wrfbdy_d01, it will be overwritten.
 no wrfinput_d01 copy needed, it won't be changed.
