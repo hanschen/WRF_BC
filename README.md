@@ -20,10 +20,10 @@ Files needed:
 ------------------------------------------------------------------
 **NOTE:**
 
-Keep an extra copy of wrfbdy_d01, it will be overwritten.
-no wrfinput_d01 copy needed, it won't be changed.
+Keep an extra copy of `wrfbdy_d01`, it will be overwritten.
+No `wrfinput_d01` copy needed, it won't be changed.
 
-After run "WRF_BC", rename wrf_3dvar_output as wrfinput_d01
+After running `WRF_BC`, rename `wrf_3dvar_output` as `wrfinput_d01`.
 
 ------------------------------------------------------------------
 
