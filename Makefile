@@ -59,7 +59,7 @@ make_rules:
 		echo "FCFLAGS	= -FR -convert big_endian"	>> compiler_macros	; \
 		echo "LDFLAGS	= " 				>> compiler_macros	; \
 		echo "FPPFLAG	= -DLINUX -I$(NETCDF)/include -I."	>> compiler_macros	; \
-		echo "LIBS	= -L$(NETCDF)/lib -lnetcdff -lnetcdf"	>> compiler_macros	; \
+		echo "LIBS	= -L$(NETCDF)/lib -lnetcdf -lnetcdff"	>> compiler_macros	; \
 	else echo "Do not know how to compile for the `cat .tmpfile` machine." 		; \
 	fi ; \
 	fi ; \
